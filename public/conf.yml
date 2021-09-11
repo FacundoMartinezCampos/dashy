@@ -1,33 +1,32 @@
----
+ appConfig:
+  theme: "oblivion"
+  fontAwesomeKey: "0821c65656"
+  layout: "horizontal"
+  iconSize: "small"
+  auth: 
+    users: 
+      -user: 'Trimux'
+      hash: '45D5923C1AE97F5D61E848C2CA72DEE7B3BB35C1C9AD4F2E21CB2EA2E5B30332'
+      type: 'admin'
 pageInfo:
-  title: Dashy
+  title: "Dashy"
   navLinks:
-  - title: Home
-    path: /
-  - title: About
-    path: /about
-  - title: Source Code
-    path: https://github.com/Lissy93/dashy
-appConfig:
-  theme: colorful
-  fontAwesomeKey: 0821c65656
+    - title: "Home"
+      path: "/"
+  description: ""
+  footerText: ""
 sections:
-- name: Getting Started
-  items:
-  - title: Source
-    description: Source code and documentation on GitHub
-    icon: fab fa-github
-    url: https://github.com/Lissy93/dashy
-  - title: Issues
-    description: View currently open issues, or raise a new one
-    icon: fas fa-bug
-    url: https://github.com/Lissy93/dashy/issues
-  - title: Demo 1
-    description: 'Live Demo #1'
-    icon: far fa-rocket
-    url: https://dashy-demo-1.netlify.app 
-  - title: Demo 2
-    description: 'Live Demo #2'
-    icon: fad fa-planet-ringed
-    url: https://dashy-demo-2.netlify.app 
-  
+  - name: "Work"
+    items:
+      - title: "Outlook"
+        description: "Outlook"
+        icon: "favicon"
+        url: "https://outlook.live.com/owa/?path=/mail/inbox"
+      - title: "Jira"
+        description: "Jira"
+        icon: "favicon"
+        url: "https://phinx.atlassian.net/jira/software/projects/MIESC/boards/65"
+      - title: "Bitbucket"
+        description: "Bitbucket"
+        icon: "favicon"
+        url: "https://bitbucket.org/"
