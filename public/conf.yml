@@ -3,11 +3,11 @@
   fontAwesomeKey: "0821c65656"
   layout: "horizontal"
   iconSize: "small"
-  auth: [
+  auth: {
    - user: 'Trimux',
     hash: '45D5923C1AE97F5D61E848C2CA72DEE7B3BB35C1C9AD4F2E21CB2EA2E5B30332',
     type: 'admin'
-  ]
+  }
 pageInfo:
   title: "Dashy"
   navLinks:
