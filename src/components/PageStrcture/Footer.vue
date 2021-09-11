@@ -3,7 +3,7 @@
   <footer v-if="text && text !== '' && visible" v-html="text"></footer>
   <!-- Default Footer -->
   <footer v-else-if="visible">
-      
+      test
   </footer>
 </template>
 
