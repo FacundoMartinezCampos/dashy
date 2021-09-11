@@ -3,10 +3,7 @@
   <footer v-if="text && text !== '' && visible" v-html="text"></footer>
   <!-- Default Footer -->
   <footer v-else-if="visible">
-      Developed by <a :href="authorUrl">{{authorName}}</a>.
-      Licensed under <a :href="licenseUrl">{{license}}</a>
-      {{ showCopyright? '©': '' }} {{date}}.
-      Get the <a :href="repoUrl">Source Code</a>.
+      
   </footer>
 </template>
 
@@ -38,18 +35,7 @@ export default {
 @import '@/styles/media-queries.scss';
 
 footer {
-  width: calc(100% - 0.5rem);
-  bottom: 0;
-  padding: 0.25rem;
-  text-align: center;
-  color: var(--medium-grey);
-  opacity: var(--dimming-factor);
-  background: var(--footer-background);
-  margin-top: 1.5rem;
-  border-top: 1px solid var(--outline-color);
-  @include tablet-down {
     display: none;
-  }
 }
 
 footer a{
